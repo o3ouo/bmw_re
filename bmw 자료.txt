@@ -1,0 +1,136 @@
+1920*1080
+부트스트랩
+> Extra Small : < 576px (width : 100%) : 모바일
+>> width 100% / 4column / gutter 30px / margin 15px / column width 114px
+
+> Small : => 576px (max-width : 540px) : 모바일
+>> max-width 540px / 6column / gutter 30px / margin 15px / column width 60px
+
+> Medium : => 768px (max-width : 720px) : 타블릿
+>> max-width 720px / 6column / gutter 30px / margin 15px / column width 90px
+
+> Large : => 992px (max-width : 960px) : 데스크탑
+>> max-width 960px / 12column / gutter 30px / margin 15px / column width 50px
+
+> Extra Large : => 1200px (max-width : 1140px) : 와이드 데스크탑
+>> max-width 1140px / 12column / gutter 30px / margin 15px / column width 65px
+
+
+bbc6c9 실버
+008AC9 블루
+
+https://www.bmw.co.kr/ko/more-bmw/neue-klasse.html
+
+-------------------------------------------------------------------
+
+Model
+Electric car
+Build my car
+Purchase
+Learn more
+BMW Driving Center
+
+Get the Latest News
+
+The joy of driving becomes an everyday pleasure.
+Discover the BMW Vision Neue Classe X, a vehicle that embodies BMW’s heritage in a new way.  
+
+
+-----------------------------------------------------------------
+
+NEW
+BMW Vision Neuer Classe
+
+A new era of mobillty.
+
+The vision of BMW Neuer Classe has been renewed.
+Experience the new era with BMW Neuer Classe through the latest news.
+
+---------------------------------------------------------------------
+
+BMW's pure electric model with a vision.
+
+BMW i4
+The first all-electric Gran Coupe, the BMW i4, is a dynamic yet sustainable form of mobility today. With its sporty design and driving dynamics, it is the perfect vehicle for any adventure, with up to 340 hp and a range of up to 429 km.
+
+BMW New i5.
+The sporty, purely electric BMW 5 Series sedan. The BMW i5 adds 340 hp to purely electric driving. Boasting a dynamic design and intelligent assistance systems for the driver, it can go anywhere with a range of up to 441 km.
+
+------------------------------------------------------------------------
+
+News
+
+BMW Concept Skytop
+every year, the most spectacular and beautiful automobiles come together at the legendary Concorso d’Eleganza at the Grand Hotel Villa d’Este on Lake Como. The BMW Concept Skytop combines classic luxury features and precise craftsmanship with high-tech details to create a one-of-a-kind vehicle.
+24 May 2024
+
+BMW Art Car #20
+For the design of the BMW M Hybrid V8 as the 20th BMW Art Car, American abstract painter Julie Mehretu combines her creative work with her enthusiasm for automotive design and speed. Gain exclusive insights into the development of the latest vehicle in the long-standing BMW Art Car Collection.
+21 May 2024
+
+BMW XM MYSTIQUE ALLURE
+A symbiosis between automotive and high fashion, the one-off BMW XM MYSTIQUE ALLURE is an unseen approach, tailored for the most radiant runway of the year – the red carpet of Cannes Film Festival – and supermodel Naomi Campbell’s appearance on it.
+15 May 2024
+
+More articles 더 많은 기사
+
+-------------------------------------------------------------------------
+
+Experience BMW today.
+
+FAVORITES
+
+EXPERIENCE 경험
+
+Apply for a test drive
+
+Build my car
+
+BMW Shop Online
+
+--------------------------------------------------------------------------
+
+BMW Brand
+
+-------------------------------------------------------------------
+
+* footer
+
+BMW Model Lineup
+model
+
+BMW Group
+
+Legal Terms and Conditions Information
+ 
+BMW Official Channel
+
+Business registration information
+> Business Registration Number: 211-86-08983
+> Mail order business registration number: 2014-Seoul Jung-gu-0829
+> CEO: Sangyoon Han
+> Address: 100 Toegye-ro, Jung-gu, Seoul
+> Representative phone number: 080-700-8000
+> Email: bmw@bmw.co.kr
+> Business registration information confirmation
+
+Personal (location) information processing policy
+Notice on changes to personal information processing policy
+
+© BMW Group 2024
+
+Legal Notice
+Contact
+Cookie Policy
+
+
+
+
+
+
+
+
+
+
+
+

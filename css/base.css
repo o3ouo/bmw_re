@@ -1,0 +1,21 @@
+:root {
+    /* font size */
+    --fz-12: .75rem;
+    --fz-14: .875rem;
+    --fz-16: 1rem;
+    --fz-18: 1.125rem;
+    --fz-24: 1.5rem;
+    --fz-32: 2rem;
+    --fz-48: 3rem;
+
+    /* color */
+    --black: #111111;
+    --white: #FFFFFF;
+    --silver: #BBC6C9;
+    --blue: #008AC9;
+
+    /* rem */
+    --px-12: .75rem;
+    --px-16: 1rem;
+    --px-40: 2.5rem;
+}

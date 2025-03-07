@@ -1,0 +1,305 @@
+@import url("./reset.css");
+
+@font-face {
+  font-family: 'OAGOthic-Midium';
+  src: url(../font/OAGothic-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OAGothic-ExtraBold';
+  src: url(../font/OAGothic-ExtraBold.ttf);
+  font-weight: 800;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'OAGOthic-Midium';
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+figure {
+  width: fit-content;
+  height: fit-content;
+}
+
+button {
+  cursor: pointer;
+}
+
+.inner {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section_title {
+  margin-bottom: 24px;
+}
+
+/* header */
+.header {
+  width: 100%;
+  height: 100px;
+  position: fixed;
+  z-index: 99;
+  color: var(--white);
+  font-size: var(--fz-18);
+  /* background-color: rgba(0,0,0,.1); */
+}
+
+.header_i {
+  max-width: 1720px;
+  height: 100%;
+  padding: 0 var(--px-12);
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header_gnb {
+  height: 100%;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.header .logo a {
+  display: block;
+  width: fit-content;
+  height: fit-content;
+}
+
+.header .logo .t_h {
+  display: block;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header .nav {
+  height: 100%;
+}
+
+.header .nav ul {
+  height: 100%;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+}
+
+.header .m_icon {
+  width: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.header .m_icon .line {
+  width: 24px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+/* main */
+.main {
+  width: 100%;
+  position: relative;
+}
+
+.main_bg {
+  width: 100%;
+}
+
+.main_inner {
+  width: 100%;
+  max-width: 1720px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: var(--px-12);
+}
+
+.main_text {
+  height: 100vh;
+  max-height: 800px;
+  min-height: 528px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main_text .title {
+  font-size: calc(2.5rem + 2vw);
+  letter-spacing: -0.02rem;
+  margin-bottom: var(--px-40);
+}
+
+.main_text .title span {
+  display: block;
+  font-size: calc(3rem + 10vw);
+}
+
+.main_text .m_btn {
+  display: inline-block;
+  font-size: var(--fz-18);
+  padding: var(--px-16);
+  background-color: var(--blue);
+}
+
+.main_text p {
+  margin-bottom: var(--px-16);
+  font-size: var(--fz-24);
+}
+
+/* classe */
+.classe {
+  width: 100%;
+  margin: 50px 0;
+}
+
+.classe .section_title .s_t {
+  font-size: var(--fz-14);
+  letter-spacing: 1.4rem;
+  margin-bottom: 8px;
+}
+
+.classe .right {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.classe .right .text_box {
+  height: 50%;
+  background-color: var(--silver);
+  color: var(--white);
+}
+
+.classe .right .text_box a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  padding: var(--px-12);
+}
+
+.classe .right .top_t .t1 {
+  margin-bottom: 24px;
+  font-size: var(--fz-18);
+  line-height: 1.5;
+}
+
+.classe .right .top_t .t2 {
+  line-height: 1.5;
+}
+
+.classe .right .icon {
+  align-self: flex-end;
+}
+
+
+/* vision */
+.vision {
+  width: 100%;
+  padding: 50px 0;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.vision .i4 {
+  margin-bottom: 24px;
+}
+
+.vision .text_box a {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 60%;
+  padding: var(--px-12);
+  background-color: var(--silver);
+  line-height: 1.5;
+}
+
+.vision .top_t .t1 {
+  margin-bottom: 24px;
+  font-size: var(--fz-18);
+}
+
+.vision .icon {
+  align-self: flex-end;
+}
+
+/* experience */
+.experience {
+  width: 100%;
+  padding: 100px 0;
+}
+
+.experience .title {
+  padding-top: 40px;
+  padding-bottom: 24px;
+  font-size: var(--fz-18);
+}
+
+.experience .contents {
+  padding-bottom: 40px;
+}
+
+.experience .con {
+  padding: 36px 0;
+  border-top: 2px solid #ddd;
+  font-size: var(--fz-48);
+}
+
+.experience .con:last-child {
+  border-bottom: 2px solid #ddd;
+}
+
+.experience .con_inner {
+   display: flex;
+   justify-content: space-between;
+}
+
+/* news */
+.news {
+  width: 100%;
+  margin: 50px 0;
+}
+
+
+/* brand */
+.brand {
+  width: 100%;
+  margin: 50px 0;
+}
+
+
+/* footer */
