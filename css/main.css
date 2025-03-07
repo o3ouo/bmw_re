@@ -22,6 +22,7 @@
 
 body {
   font-family: 'OAGOthic-Midium';
+  color: var(--black);
 }
 
 a {
@@ -179,6 +180,10 @@ button {
   font-size: var(--fz-24);
 }
 
+.main_text .t2 {
+  font-size: var(--px-16);
+}
+
 /* classe */
 .classe {
   width: 100%;
@@ -214,11 +219,11 @@ button {
 .classe .right .top_t .t1 {
   margin-bottom: 24px;
   font-size: var(--fz-18);
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 .classe .right .top_t .t2 {
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 .classe .right .icon {
@@ -245,7 +250,7 @@ button {
   height: 60%;
   padding: var(--px-12);
   background-color: var(--silver);
-  line-height: 1.5;
+  line-height: 1.7;
 }
 
 .vision .top_t .t1 {
@@ -291,9 +296,58 @@ button {
 /* news */
 .news {
   width: 100%;
-  margin: 50px 0;
+  padding: 50px 0;
+  background-color: var(--silver);
 }
 
+.news .title {
+  margin-bottom: 15px;
+}
+
+.news .con {
+  padding: 24px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.news .con:first-child {
+  border-top: 1px solid #ddd;;
+}
+
+.news .text_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.news .text_box .title_box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.news .text_box .title {
+  margin-bottom: 24px;
+  font-size: var(--fz-18);
+}
+
+.news .text_box .title_box img {
+  width: 24px;
+}
+
+.news .text_box .t {
+  line-height: 1.7;
+  color: #555;
+}
+
+.news .text_box .date {
+  font-size: var(--fz-12);
+  color: #797979;
+}
+
+.news .more a {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
 
 /* brand */
 .brand {
@@ -301,5 +355,111 @@ button {
   margin: 50px 0;
 }
 
+.brand .title {
+  margin-bottom: 12px;
+  font-size: var(--fz-32);
+}
+
+.brand .carousel-caption {
+  top: .5%;
+  right: 2%;
+  left: auto;
+}
+
+.brand .carousel-caption h5 {
+  padding: var(--px-16);
+  background-color: var(--blue);
+  font-size: var(--fz-18);
+  color: var(--white);
+}
+
 
 /* footer */
+.footer {
+  font-size: var(--fz-14);
+}
+
+.footer .f_top {
+  background-color: var(--blue);
+}
+
+.footer .ft_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  color: var(--white);
+}
+
+.footer .f_top .lineup {
+  display: flex;
+  gap: 24px;
+}
+
+.footer .f_top .lineup a {
+  font-size: var(--fz-16);
+  font-weight: bold;
+}
+
+.footer .f_top .sns {
+  display: flex;
+  gap: 24px;
+}
+
+.footer .f_meddle {
+  padding: 40px;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.footer .f_meddle .fnb_row {
+  justify-content: space-between;
+}
+
+.footer .f_meddle .fnb {
+  width: fit-content;
+}
+
+.footer .f_meddle .group a {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 12px 0;
+}
+
+.footer .f_meddle .info {
+  width: fit-content;
+}
+
+.footer .f_meddle .info .title {
+  margin-bottom: 16px;
+}
+
+.footer .f_meddle .info_t {
+  font-size: var(--fz-12);
+  line-height: 1.7;
+}
+
+.footer .f_bottom {
+  background-color: var(--silver);
+}
+
+.footer .fb_inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.footer .f_bottom .copy {
+  color: #555;
+}
+
+.footer .f_bottom .cookie_box {
+  display: flex;
+  gap: 24px;
+}
+
+.footer .f_bottom .cookie_box a {
+  display: block;
+}

@@ -57,3 +57,7 @@ figure{
     width: fit-content;
     height: fit-content;
 }
+
+/* .carousel-dark .carousel-indicators [data-bs-target] {
+  background-color: #fff;
+} */
