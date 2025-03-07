@@ -65,7 +65,7 @@ button {
   z-index: 99;
   color: var(--white);
   font-size: var(--fz-18);
-  /* background-color: rgba(0,0,0,.1); */
+  background-color: rgb(164 222 251 / 0%);
 }
 
 .header_i {
@@ -157,6 +157,14 @@ button {
   justify-content: space-between;
 }
 
+.main_text .top {
+  margin-top: 100px;
+}
+
+.main_text .bottom {
+  margin-bottom: 24px;
+}
+
 .main_text .title {
   font-size: calc(2.5rem + 2vw);
   letter-spacing: -0.02rem;
@@ -241,6 +249,10 @@ button {
 
 .vision .i4 {
   margin-bottom: 24px;
+}
+
+.vition .i5 .text_box {
+  align-self: flex-end;
 }
 
 .vision .text_box a {
@@ -462,4 +474,117 @@ button {
 
 .footer .f_bottom .cookie_box a {
   display: block;
+}
+
+@media screen and (max-width: 1440px) {
+
+  .main_text .top {
+    margin-top: 160px;
+  }
+  
+  .main_text .bottom {
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+
+  body {
+    font-size: 14px;
+  }
+
+  .main_text .top {
+    margin-top: 220px;
+  }
+  
+  .main_text .bottom {
+    margin-bottom: 140px;
+  }
+
+  .main_text .title {
+    font-size: calc(1rem + 2vw);
+  }
+
+  .main_text .title span {
+    font-size: calc(2rem + 5vw);
+  }
+
+  .main_text .m_btn {
+    font-size: var(--fz-16);
+  }
+
+  .vision .text_box a {
+    height: 80%;
+    line-height: 1.5;
+  }
+
+  .news .text_box .t {
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 992px) {
+
+  .header .nav {
+    display: none;
+  }
+
+  .main_text {
+    height: fit-content;
+    min-height: auto;
+    justify-content: unset;
+  }
+
+  .main_text .top {
+    margin-top: 100px;
+  }
+
+  .main_text .bottom {
+    margin-top: 70px;
+    margin-bottom: auto;
+  }
+
+  .main_text .title {
+    margin-bottom: auto;
+  }
+
+  .main_text p {
+    font-size: var(--fz-16);
+  }
+
+  .classe .right {
+    flex-direction: row;
+    margin-top: 24px;
+  }
+
+  .classe .right .text_box {
+    height: auto;
+  }
+
+  .vision .i4,
+  .vision .i5 {
+    gap: 24px;
+  }
+
+  .vision .text_box a {
+    width: 50%;
+    height: 100%;
+    margin-bottom: 24px;
+  }
+
+  .vision .i5 .text_box a {
+    margin-left: auto;
+  }
+
+  .news .text_box .title_box {
+    margin-top: 24px;
+  }
+
+  .news .text_box {
+    gap: 24px;
+  }
+
+  .footer .f_meddle .fnb_row {
+    gap: 32px;
+  }
 }
