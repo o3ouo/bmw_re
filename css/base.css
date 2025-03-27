@@ -1,3 +1,19 @@
+@import url("./reset.css");
+
+@font-face {
+  font-family: 'OAGOthic-Midium';
+  src: url(../font/OAGothic-Medium.ttf);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OAGothic-ExtraBold';
+  src: url(../font/OAGothic-ExtraBold.ttf);
+  font-weight: 800;
+  font-style: normal;
+}
+
 :root {
     /* font size */
     --fz-12: .75rem;
@@ -18,4 +34,52 @@
     --px-12: .75rem;
     --px-16: 1rem;
     --px-40: 2.5rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'OAGOthic-Midium';
+  color: var(--black);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+figure {
+  width: fit-content;
+  height: fit-content;
+}
+
+button {
+  cursor: pointer;
+}
+
+source {
+  display: block;
+  width: 100%;
+}
+
+.inner {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.section_title {
+  margin-bottom: 24px;
 }
